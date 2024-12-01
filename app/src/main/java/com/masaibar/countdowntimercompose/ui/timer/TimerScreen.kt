@@ -1,4 +1,4 @@
-package com.masaibar.countdowntimercompose
+package com.masaibar.countdowntimercompose.ui.timer
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,8 +13,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.masaibar.countdowntimercompose.ui.theme.CountDownTimerComposeTheme
-import com.masaibar.countdowntimercompose.ui.timer.CountDownTimerViewModel
-import com.masaibar.countdowntimercompose.ui.timer.UiState
 
 @Composable
 fun TimerScreen(

@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.masaibar.countdowntimercompose.ui.theme.CountDownTimerComposeTheme
 import com.masaibar.countdowntimercompose.ui.timer.CountDownTimerViewModel
+import com.masaibar.countdowntimercompose.ui.timer.TimerScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
