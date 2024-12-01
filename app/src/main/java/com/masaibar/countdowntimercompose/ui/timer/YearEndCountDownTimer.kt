@@ -16,7 +16,6 @@ class YearEndCountDownTimer(
     }
 }
 
-
 private fun Calendar.calculateMillisUntilEndOfYear(): Long {
     val endOfYear = Calendar.getInstance().apply {
         set(Calendar.MONTH, Calendar.DECEMBER)

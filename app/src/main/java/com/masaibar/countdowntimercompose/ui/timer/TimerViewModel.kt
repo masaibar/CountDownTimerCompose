@@ -1,6 +1,5 @@
 package com.masaibar.countdowntimercompose.ui.timer
 
-import android.os.CountDownTimer
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
